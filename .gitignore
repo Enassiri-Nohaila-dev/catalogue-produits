@@ -1,6 +1,15 @@
-# Fishiers temporaires 
-.DS_Store 
-Thumbs.db
+# Dépendances 
+node_modules/
 
-# Variables d'environnement et secrets 
+# Variables d'environnement et secrets
 .env
+.anv.*
+
+# Fishiers générés
+dist/
+coverage/
+
+# Editeur et système
+.vscode/
+.DS_Store
+Thumbs.db
